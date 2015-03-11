@@ -1,0 +1,9 @@
+language: c
+compiler: gcc
+before_install:
+  - sudo chown $USER /opt
+  - sudo chown $USER /usr/local
+  - sudo mkdir /dist
+  - sudo chown $USER /dist
+script:
+  - cd rootfs && ./build-wrapper
