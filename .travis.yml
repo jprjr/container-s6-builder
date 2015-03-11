@@ -6,4 +6,4 @@ before_install:
   - sudo mkdir /dist
   - sudo chown $USER /dist
 script:
-  - cd rootfs && ./build-wrapper
+  - cd rootfs && ./build-latest
