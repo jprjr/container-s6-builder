@@ -9,5 +9,6 @@ before_install:
   - sudo chown $USER /build
   - sudo chown $USER /opt
   - sudo chown $USER /usr/local
+  - ls -lh /usr
 script:
   - cd rootfs && ./build-latest
