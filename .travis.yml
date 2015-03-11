@@ -4,6 +4,8 @@ before_install:
   - sudo chown $USER /opt
   - sudo chown $USER /usr/local
   - sudo mkdir /dist
+  - sudo mkdir /build
   - sudo chown $USER /dist
+  - sudo chown $USER /build
 script:
   - cd rootfs && ./build-latest
