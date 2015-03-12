@@ -10,4 +10,4 @@ deploy:
   file: $HOME/dist/*
   on:
     repo: jprjr/container-s6-builder
-    branch: jprjr
+    branch: master
