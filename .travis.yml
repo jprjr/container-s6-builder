@@ -11,3 +11,4 @@ deploy:
   on:
     repo: jprjr/container-s6-builder
     branch: master
+    tags: true
