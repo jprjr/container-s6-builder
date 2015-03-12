@@ -1,13 +1,4 @@
 language: c
 compiler: gcc
-before_install:
-  - sudo mkdir -p /dist
-  - sudo mkdir -p /build
-  - sudo mkdir -p /usr/local
-  - sudo mkdir -p /opt
-  - sudo chown $USER /dist
-  - sudo chown $USER /build
-  - sudo chown $USER /opt
-  - sudo chown $USER /usr/local
 script:
-  - cd rootfs && sudo ./build-latest
+  - cd skarnet-builder && ./build-wrapper
